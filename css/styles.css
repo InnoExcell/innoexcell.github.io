@@ -51,11 +51,22 @@ body {
 }
 .navbar-header {
   clear: both;
-  margin-top: -30px;
+  margin-top: 20px;
 }
 /* END HEADER */
 
 /* HOMEPAGE 2 */
+.profile {
+  color: #000;
+  background-color: green;
+  text-align: justify;
+}
+
+#box_b {
+  color: #000;
+  background-color: red;
+  text-align: center;
+}
 
 #blog_page {
   color: #000;
