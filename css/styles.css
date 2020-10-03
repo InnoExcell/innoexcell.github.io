@@ -46,10 +46,10 @@ body {
   padding-right: 15px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+.navbar-header .navbar-header .icon-bar {
+  border: 0px solid #fff;
 }
-.navbar-header button.navbar-toggle {
+.navbar-header {
   clear: both;
   margin-top: -30px;
 }
@@ -57,12 +57,12 @@ body {
 
 /* HOMEPAGE 2 */
 
-#home_page2 {
+#blog_page {
   color: #000;
   text-align: center;
 }
 
-#home_page2_heading {
+#blog_page_heading {
   font-size: 2.0em
 }
 
@@ -71,40 +71,6 @@ body {
 }
 
 /* END HOMEPAGE 2 */
-
-/* HOMEPAGE 3 */
-
-#home_page3 {
-  color: #000;
-  text-align: left;
-}
-
-#home_page3_heading {
-  font-size: 2.0em
-}
-
-#core_values {
-  text-transform: bold;
-}
-
-/* END HOMEPAGE 3 */
-
-/* HOMEPAGE 4 */
-
-#home_page4 {
-  color: #000;
-  text-align: left;
-}
-
-#home_page4_heading {
-  font-size: 2.0em
-}
-
-#core_values {
-  text-transform: bold;
-}
-
-/* END HOMEPAGE 4 */
 
 /* FOOTER */
 .panel-footer {
