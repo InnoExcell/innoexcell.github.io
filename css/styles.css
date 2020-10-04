@@ -6,12 +6,16 @@ body {
   width: max-size;
 }
 
+.container {
+  overflow: hidden;
+}
+
 /** HEADER **/
 #header-nav {
   background-color: #000;
   border-radius: 0;
   border: 0;
-  z-index: 10
+  z-index: 5
   padding-bottom: 0px;
 }
 
@@ -56,6 +60,8 @@ body {
 
 .column {
   float: left;
+  width: 100%;
+  flex: 1;
 }
 
 .left {
@@ -65,22 +71,43 @@ body {
 }
 
 .properties {
-  padding: 20px;
+  padding top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
 }
 
 .right {
   width: 30%;
-  background: #1a1a1a;
+  background-color: #1a1a1a;
   color: #fff;
 }
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table;
+  display: flex;
   clear: both;
 }
 
+/* Responsive Layout */
+
+@media screen and (max-width: 600px) {
+  .column {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
 /* END OF PAGE DIVIDER */
 
 /* HOMEPAGE 2 */
@@ -156,16 +183,28 @@ body {
   .sidenav a {font-size: 18px;}
 
 /* FOOTER */
+
+#footer {
+  background-color: #000;
+  border-radius: 0;
+  border: 0;
+  z-index: 3
+  padding top: 20px;
+}
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #000;
   border-top: 0;
   z-index: 10;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
+}
+
+.text-center {
+  color: #fff;
 }
 #edu_guides, #abt_company {
   line-height: 2;
@@ -174,7 +213,7 @@ body {
   font-size: 1.3em;
 }
 #abt_company p {
-  color: #557c3e;
+  color: #000;
   font-size: .8em;
   line-height: 1.8;
 }
