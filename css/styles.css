@@ -153,14 +153,24 @@ margin-top: 15px;
 margin-left: -5px;
 }
 
-#three {
-
-}
-
 .work_historyone {
   background-color: yellow;
   color: #000;
 }
+
+
+/* SERVICES STYLING */
+
+.services {
+  font-style: italic;
+}
+
+#services_text {
+  padding-left: 2em;
+}
+
+
+/* CERTIFICATES STYLING */
 
 .skills_styling {
   background-color: yellow;
@@ -170,8 +180,13 @@ margin-left: -5px;
   padding-bottom: 1.7px;
 }
 
-.certificates_styling {
-  margin-left: -20px;
+.certificates_title_styling {
+  margin-left: -10px;
+}
+
+#certificate_text {
+  padding-top: 3px;
+  padding-left: 30px;
 }
 
 /* FOOTER */
